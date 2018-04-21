@@ -12,7 +12,7 @@ go run GolangCheckSite.go
 go run GolangCheckSite.go timer 10 proxy "http://localhost:1080"
 ```
 
-### Доступные параметры.
+### Доступные опции.
 * `timer` - Таймер проверки сайта;
 * `proxy` - Активация прокси сервера в формате scheme://ip:port;
 * `timeout` - Таймаут для проверки сайта;
@@ -33,7 +33,7 @@ error: {TEXTERROR}
 ```
 Site {URL} returned error code: {RETURNCODE}
 ```
-Где {URL} - адрес проверяемого сайта; RETURNCODE - возвращаемый http-статус.
+Где {URL} - адрес проверяемого сайта; {RETURNCODE} - возвращаемый http-статус.
 
 # Файл с сайтами.
 Данное приложение берет данные о проверяемых сайтах из файла sites.txt. Его формат должен принимать примерно подобный вид:
